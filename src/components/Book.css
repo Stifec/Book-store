@@ -1,0 +1,52 @@
+
+
+.book-item {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    gap: 10px;
+    /* width: 270px; */
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 2px 8px 8px 2px darkmagenta;
+    margin-bottom: 20px;
+}
+.book-image {
+    width: 246px;
+    height: 326px;
+    border-radius: 10px;
+    border: 1px solid red;
+    
+}
+.imag {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.item-discription{
+    width: 246px;
+    height: 150px;
+    text-align: justify;
+}
+
+.price-in {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+}
+.item-btn-book {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: aquamarine;
+    
+}
+.item-btn-book:hover{
+    background-color: brown;
+    cursor: pointer;
+}
+.book-item:hover {
+    transform: scale(1.1);
+}

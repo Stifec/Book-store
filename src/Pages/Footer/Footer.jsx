@@ -2,10 +2,11 @@ import './Footer.css';
 
 function Footer (){
     return (
-        <div className='footer'>
-            <h3>Weytut !!!!</h3>
-            <p>Fuerewc yueywtehcb</p>
+        <footer class="footer-main">
+        <div>
+            <a class="link-prometheus" href="https://prometheus.org.ua/">Виконано в <span class="prom">Prometheus</span> <span class="copy">© 2024</span></a>
         </div>
+    </footer>
     );
 }
 

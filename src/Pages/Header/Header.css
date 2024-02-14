@@ -1,8 +1,22 @@
-
-.header{
-    background-color: rgb(106, 106, 245, 0.2);
+a {
+    text-decoration: none;
+    color: blue;
+    font-family: Courgette;
+    font-weight: 600;
+    font-size: 36px;
 }
-h1{
-    color: blueviolet;
-    
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(228, 235, 155, 0.5);   
+    padding: 20px 30px;
+    font-size: 24px;  
+}
+.autor {
+    color: rgb(169, 11, 241);
+    font-family: Amaranth;
+    font-weight: 400;
+    font-size: 36px;
+    margin-left: 10px;
 }

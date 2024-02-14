@@ -2,11 +2,12 @@ import "./Header.css";
 
 function Header (){
     return (
-        <div className="header">
-            <h1>Hello !!!!</h1>
-            <p>Deriction ghfjkddoeo ?</p>
-
-        </div>
+        <header class="header">
+            <div class="logo">
+                <a href="../signin/index.html">JS BAND STORE /</a>
+                <span class="autor">Stanislav Tsyhanok</span>
+            </div>
+        </header>
     );
 }
 

@@ -1,0 +1,25 @@
+
+.footer-main {
+    background-color: rgb(138, 124, 4, 0.5);
+    padding: 20px 0;
+    text-align: center;
+    
+}
+.footer-main a{
+    color: rgb(235, 66, 235);
+    font-family: Courgette;
+    font-weight: 600;
+    font-size: 24px;
+
+}
+.prom{
+    color: rgb(159, 66, 235);
+    font-family: Amaranth;
+    font-weight: 400;
+    font-size: 36px;
+    padding-right: 10px;
+}
+.copy{
+    font-size: 16px;
+
+}
