@@ -1,7 +1,7 @@
-import './MainBooks.css';
+import './BooksList.css';
 import books from '../../data/books.json';
-import Book from '../../components/Book';
-import BooksSearch from '../../components/BooksSearch';
+import Book from '../../components/Books/Book';
+import BooksSearch from '../../components/Books/BooksSearch';
 
 function MainBooks (){
     return (

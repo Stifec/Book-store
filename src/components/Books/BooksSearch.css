@@ -20,7 +20,7 @@ select{
     box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.4);
 }
 .input_search {
-    background-image: url("../../public/images/search_find_lupa_21889.png");
+    background-image: url("../../../public/images/search_find_lupa_21889.png");
     background-repeat: no-repeat;
     background-position: right;
     height: 40px;

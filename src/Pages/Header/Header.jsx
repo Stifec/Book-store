@@ -1,10 +1,11 @@
 import "./Header.css";
+import { Link } from 'react-router-dom';
 
 function Header (){
     return (
         <header class="header">
             <div class="logo">
-                <a href="../signin/index.html">JS BAND STORE /</a>
+                <Link to="signin">JS BAND STORE /</Link>
                 <span class="autor">Stanislav Tsyhanok</span>
             </div>
         </header>
