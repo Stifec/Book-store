@@ -1,0 +1,54 @@
+
+.main-cart{
+    font-family: Courgette;
+    font-weight: 400;
+    padding: 50px 0;
+}
+.btn-return a{
+    font-size: 20px;
+}
+.btn-return{
+    margin-left: 100px;
+    width: 150px;
+    height: 30px;
+    border: 1px solid red;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.4);  
+}
+.img-cart{
+    max-width: 20%;
+} 
+.empty-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.text-empty,
+.totalPrice-cart{
+    font-size: 36px;
+    font-weight: 400;
+    color: blueviolet;
+}
+.totalPrice-cart{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.checkout{
+    font-family: Courgette;
+    font-size: 24px;
+    font-weight: 600;
+    bottom: 10px;
+    right: 0px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(203, 109, 226);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.4); 
+    cursor: pointer;
+}
+

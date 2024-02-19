@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 
 function Header (){
     return (
-        <header class="header">
-            <div class="logo">
+        <header className="header">
+            <div className="logo">
                 <Link to="signin">JS BAND STORE /</Link>
-                <span class="autor">Stanislav Tsyhanok</span>
+                <span className="autor">Stanislav Tsyhanok</span>
             </div>
         </header>
     );

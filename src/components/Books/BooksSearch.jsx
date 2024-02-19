@@ -2,10 +2,10 @@ import './BooksSearch.css';
 
 function BooksSearch (){
     return (
-        <div class="search">
-            <input class="input_search" type="text" placeholder="search"/>
-            <div class="select">
-                <label for="price">price range:</label> 
+        <div className="search">
+            <input className="input_search" type="text" placeholder="search"/>
+            <div className="select">
+                <label htmlFor="price">price range:</label> 
                 <select name="price" id="price">
                     <option value="all">All</option>
                     <option value="all15">from 0 to 15</option>

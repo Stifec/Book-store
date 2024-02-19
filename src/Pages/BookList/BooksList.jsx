@@ -3,11 +3,11 @@ import books from '../../data/books.json';
 import Book from '../../components/Books/Book';
 import BooksSearch from '../../components/Books/BooksSearch';
 
-function MainBooks (){
+function BookList () {
     return (
-        <div className='main'>
+        <div className='main-books'>
             <BooksSearch />
-             <div class="book">
+             <div className="book">
                 <Book data={books} />
             </div>
 
@@ -16,4 +16,4 @@ function MainBooks (){
 }
 
 
-export default MainBooks;
+export default BookList;

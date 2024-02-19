@@ -1,25 +1,25 @@
 import './Book.css';
+import { Link } from 'react-router-dom';
 
 function Book (props){
 
     const bookem = props.data.books;
-    // console.log(bookem)
+    console.log(bookem)
 
     return (
         <>
             {bookem.map((item,indx) => 
                 <section key={indx}>
-                   
-                        <div class="book-item">
-                            <div class="book-image">
-                               <img class="imag" src={item.image} alt="foto book"/>
-                            </div>
-                            <p class="item-discription">{item.shortDescription}</p>
-                            <div class="price-in">
-                            <span class="item-price">{item.price} $</span>
-                            <button id={item.id} type="button" class="item-btn-book">View</button> 
-                            </div>
-                        </div> 
+                    <div className="book-item">
+                        <div className="book-image">
+                            <img className="imag" src={item.image} alt="foto book"/>
+                        </div>
+                        <p className="item-discription">{item.shortDescription}</p>
+                        <div className="price-in">
+                            <span className="item-price">{item.price} $</span>
+                            <Link to='specificbook'><button id={item.id} type="button" className="item-btn-book">View</button></Link> 
+                        </div>
+                    </div> 
                     
                 </section>
             )}
